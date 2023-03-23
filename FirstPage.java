@@ -24,10 +24,13 @@ public class FirstPage{
                 Register newuser = new Register();
                 newuser.Get_Register_Info();
 
-                System.out.println("Username: "+ newuser.email + " and password: " + newuser.password);
+                System.out.println("Email: "+ newuser.email + " and password: " + newuser.password);
             }
             else if (option==2){
+                ResetPassword newuser = new ResetPassword();
+                newuser.Get_ResetPass_Info();
 
+                System.out.println("New password: " + newuser.newPassword);
             }
             else if (option==3){
                 
