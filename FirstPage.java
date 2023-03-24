@@ -40,13 +40,14 @@ public class FirstPage{
                 System.out.println("Username: "+ user.username + " and password: " + user.password);
             }
             else if (option==4){
-
+                ResultList res = new ResultList();
+                res.Display();
             }
             else if (option==5){
 
             }
 
-            System.out.println("Continue? write 1=>yes or 0=>no: ");
+            System.out.print("Continue? write 1=>yes or 0=>no: ");
             cont = sc.nextInt();
         }
 
